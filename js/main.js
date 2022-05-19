@@ -89,6 +89,15 @@ const data = [
     gender: "Male",
     ip_address: "177.47.251.168",
   },
+  { 
+    src: 'https://picsum.photos/200/300?random=11',
+    id: 11,
+    first_name: "Kilian",
+    last_name: "Chadderton",
+    email: "kchadderton9@wix.com",
+    gender: "Male",
+    ip_address: "177.47.251.168",
+  },
 ];
 
 //Fixing Images
