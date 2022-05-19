@@ -89,31 +89,25 @@ const data = [
     gender: "Male",
     ip_address: "177.47.251.168",
   },
-  { 
-    src: 'https://picsum.photos/200/300?random=11',
-    id: 11,
-    first_name: "Kilian",
-    last_name: "Chadderton",
-    email: "kchadderton9@wix.com",
-    gender: "Male",
-    ip_address: "177.47.251.168",
-  },
 ];
 
 //Fixing Images
 const image = document.getElementsByTagName('img')
-image[0].src = data[0].src
-image[1].src = data[1].src
-image[2].src = data[2].src
-image[3].src = data[3].src
-image[4].src = data[4].src
-image[5].src = data[5].src
-image[6].src = data[6].src
-image[7].src = data[7].src
-image[8].src = data[8].src
-image[9].src = data[9].src
-image[10].src = data[10].src
-image[11].src = data[11].src
+image[0].src = data[0].src;
+image[1].src = data[1].src;
+image[2].src = data[2].src;
+image[3].src = data[3].src;
+image[4].src = data[4].src;
+image[5].src = data[5].src;
+image[6].src = data[6].src;
+image[7].src = data[7].src;
+image[8].src = data[8].src;
+image[9].src = data[9].src;
+image[10].src = data[10].src;
+
+
+
+
 
 
 //Fixing Name
@@ -129,7 +123,7 @@ userFull[7].textContent = data[7].first_name + ' ' + data[7].last_name
 userFull[8].textContent = data[8].first_name + ' ' + data[8].last_name
 userFull[9].textContent = data[9].first_name + ' ' + data[9].last_name
 userFull[10].textContent = data[10].first_name + ' ' + data[10].last_name
-userFull[11].textContent = data[11].first_name + ' ' + data[11].last_name
+
 
 
 //Fixing Mail
@@ -145,7 +139,7 @@ href[7].textContent = data[7].email
 href[8].textContent = data[8].email
 href[9].textContent = data[9].email
 href[10].textContent = data[10].email
-href[11].textContent = data[11].email
+
 
 
 //Fixing Gender
@@ -161,7 +155,6 @@ userGender[7].textContent = data[7].gender
 userGender[8].textContent = data[8].gender
 userGender[9].textContent = data[9].gender
 userGender[10].textContent = data[10].gender
-userGender[11].textContent = data[11].gender
 
 
 //Fixing Address
@@ -177,4 +170,3 @@ address[7].textContent = data[7].ip_address
 address[8].textContent = data[8].ip_address
 address[9].textContent = data[9].ip_address
 address[10].textContent = data[10].ip_address
-address[11].textContent = data[11].ip_address
