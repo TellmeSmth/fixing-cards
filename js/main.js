@@ -100,6 +100,7 @@ const data = [
   },
 ];
 
+//Making Cards
 const ul = document.querySelector('ul')
 
 for (let i = 0; data.length -1; i++) {
@@ -134,6 +135,7 @@ for (let i = 0; data.length -1; i++) {
   b.style.fontWeight='400'
   b.style.display='block'
 
+  //Adding content into a list
   div.append(img, h3, a, p, b)
   li.append(div)
   ul.append(li)
